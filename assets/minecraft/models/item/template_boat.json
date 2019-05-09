@@ -3,7 +3,7 @@
     "display": {
         "gui": {
             "rotation": [ 30, 225, 0 ],
-            "translation": [ 0, 0, 0],
+            "translation": [ 0, 0, 0 ],
             "scale":[ 0.4, 0.4, 0.4 ]
         },
         "firstperson_lefthand": {
@@ -12,7 +12,7 @@
             "scale": [ 0.4, 0.4, 0.4 ]
         }
     },
-	"elements": [
+    "elements": [
         {
             "from": [ 0, 0, -6 ], 
             "to": [ 16, 3, 8 ], 

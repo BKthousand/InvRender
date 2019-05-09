@@ -3,10 +3,10 @@
     "textures": {
         "cart": "entity/minecart",
         "back": "block/command_block_back",
-		"front": "block/command_block_front",
-		"side": "block/command_block_side"
+        "front": "block/command_block_front",
+        "side": "block/command_block_side"
     },
-	"elements": [
+    "elements": [
         {
             "from": [ 0, 1, -2 ], 
             "to": [ 16, 3, 8 ], 

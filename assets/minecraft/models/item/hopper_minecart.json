@@ -3,10 +3,10 @@
     "textures": {
         "cart": "entity/minecart",
         "inside": "block/hopper_inside",
-		"outside": "block/hopper_outside",
-		"top": "block/hopper_top"
+        "outside": "block/hopper_outside",
+        "top": "block/hopper_top"
     },
-	"elements": [
+    "elements": [
         {
             "from": [ 0, 1, -2 ], 
             "to": [ 16, 3, 8 ], 
@@ -70,6 +70,17 @@
             }
         },
         {
+            "from": [ 5, 3.75, 5 ], 
+            "to": [ 11, 8.25, 11 ], 
+            "faces": {
+                "north": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "east": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "south": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "west": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "down": { "texture": "#outside", "uv": [ 4, 4, 12, 12 ] }
+            }
+        },
+        {
             "from": [ 2, 8.25, 2 ], 
             "to": [ 14, 9, 14 ], 
             "faces": {
@@ -117,17 +128,6 @@
                 "east": { "texture": "#outside", "uv": [ 2, 0, 14, 5 ] },
                 "west": { "texture": "#outside", "uv": [ 2, 0, 14, 5 ] },
                 "up": { "texture": "#top", "uv": [ 14, 2, 16, 14 ] }
-            }
-        },
-        {
-            "from": [ 5, 3.75, 5 ], 
-            "to": [ 11, 8.25, 11 ], 
-            "faces": {
-                "north": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "east": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "south": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "west": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "down": { "texture": "#outside", "uv": [ 4, 4, 12, 12 ] }
             }
         }
     ]

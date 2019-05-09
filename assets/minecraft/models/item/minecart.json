@@ -3,7 +3,7 @@
     "textures": {
         "cart": "entity/minecart"
     },
-	"elements": [
+    "elements": [
         {
             "from": [ 0, 1, -2 ], 
             "to": [ 16, 3, 8 ], 
