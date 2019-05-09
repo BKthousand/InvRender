@@ -2,11 +2,11 @@
     "parent": "item/template_minecart",
     "textures": {
         "cart": "entity/minecart",
-		"inside": "block/hopper_inside",
-		"outside": "block/hopper_outside",
-		"top": "block/hopper_top"
+        "inside": "block/hopper_inside",
+        "outside": "block/hopper_outside",
+        "top": "block/hopper_top"
     },
-	"elements": [
+    "elements": [
         {
             "from": [ 0, 1, -2 ], 
             "to": [ 16, 3, 8 ], 
@@ -26,7 +26,7 @@
                 "south": { "texture": "#cart", "uv": [ 0, 6, 0.5, 14 ], "rotation": 90 },
                 "west": { "texture": "#cart", "uv": [ 8, 5, 5.5, 6 ] },
                 "up": { "texture": "#cart", "uv": [ 8.5, 6, 11, 14 ], "rotation": 90 },
-				"down": { "texture": "#cart", "uv": [ 0.5, 6, 3, 14 ], "rotation": 90 }
+                "down": { "texture": "#cart", "uv": [ 0.5, 6, 3, 14 ], "rotation": 90 }
             }
         },
         {
@@ -67,6 +67,17 @@
                 "south": { "texture": "#cart", "uv": [ 0.5, 1, 4.5, 5 ] },
                 "west": { "texture": "#cart", "uv": [ 0, 1, 0.5, 5 ] },
                 "up": { "texture": "#cart", "uv": [ 0.5, 0, 4.5, 1 ] }
+            }
+        },
+        {
+            "from": [ 5, 3.75, 5 ], 
+            "to": [ 11, 8.25, 11 ], 
+            "faces": {
+                "north": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "east": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "south": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "west": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
+                "down": { "texture": "#outside", "uv": [ 4, 4, 12, 12 ] }
             }
         },
         {
@@ -117,17 +128,6 @@
                 "east": { "texture": "#outside", "uv": [ 2, 0, 14, 5 ] },
                 "west": { "texture": "#outside", "uv": [ 2, 0, 14, 5 ] },
                 "up": { "texture": "#top", "uv": [ 14, 2, 16, 14 ] }
-            }
-        },
-        {
-            "from": [ 5, 3.75, 5 ], 
-            "to": [ 11, 8.25, 11 ], 
-            "faces": {
-                "north": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "east": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "south": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "west": { "texture": "#outside", "uv": [ 4, 6, 12, 12 ] },
-                "down": { "texture": "#outside", "uv": [ 4, 4, 12, 12 ] }
             }
         }
     ]
