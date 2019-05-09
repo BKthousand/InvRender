@@ -1,0 +1,40 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        }
+    },
+	"elements": [
+        {
+            "from": [ 7.333, 0, 7.333 ], 
+            "to": [ 8.666, 9.333, 8.666 ], 
+            "faces": {
+                "north": { "texture": "#sign", "uv": [ 0.5, 8, 1, 15 ] },
+                "east": { "texture": "#sign", "uv": [ 0, 8, 0.5, 15 ] },
+                "south": { "texture": "#sign", "uv": [ 1.5, 8, 2, 15 ] },
+                "west": { "texture": "#sign", "uv": [ 1, 8, 1.5, 15 ] },
+                "down": { "texture": "#sign", "uv": [ 1.5, 7, 1, 8 ] }
+            }
+        },
+        {
+            "from": [ 0, 9.333, 7.333 ], 
+            "to": [ 16, 17.333, 8.666 ], 
+            "faces": {
+                "north": { "texture": "#sign", "uv": [ 0.5, 1, 6.5, 7 ] },
+                "east": { "texture": "#sign", "uv": [ 0, 1, 0.5, 7 ] },
+                "south": { "texture": "#sign", "uv": [ 7, 1, 13, 7 ] },
+                "west": { "texture": "#sign", "uv": [ 6.5, 1, 7, 7 ] },
+                "up": { "texture": "#sign", "uv": [ 6.5, 1, 0.5, 0 ] },
+                "down": { "texture": "#sign", "uv": [ 12.5, 0, 6.5, 1 ] }
+            }
+        }
+    ]
+}

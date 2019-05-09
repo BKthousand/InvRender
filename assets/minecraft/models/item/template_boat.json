@@ -1,5 +1,5 @@
 {
-	"parent": "block/block",
+    "parent": "block/block",
     "display": {
         "gui": {
             "rotation": [ 30, 225, 0 ],
@@ -31,7 +31,7 @@
                 "east": { "texture": "#boat", "uv": [ 0.375, 0, 2.125, 0.75 ] },
                 "south": { "texture": "#boat", "uv": [ 0, 0.75, 0.375, 4.75 ], "rotation": 90 },
                 "west": { "texture": "#boat", "uv": [ 5.625, 0, 3.875, 0.75 ] },
-				"up": { "texture": "#boat", "uv": [ 6, 0.75, 7.75, 4.75 ], "rotation": 90 },
+                "up": { "texture": "#boat", "uv": [ 6, 0.75, 7.75, 4.75 ], "rotation": 90 },
                 "down": { "texture": "#boat", "uv": [ 0.375, 0.75, 2.125, 4.75 ], "rotation": 90 }
             }
         },
@@ -53,7 +53,7 @@
                 "north": { "texture": "#boat", "uv": [ 0.25, 5.25, 1.375, 6.75 ] },
                 "east": { "texture": "#boat", "uv": [ 0, 5.25, 0.25, 6.75 ] },
                 "south": { "texture": "#boat", "uv": [ 3.875, 5.25, 5, 6.75 ] },
-				"up": { "texture": "#boat", "uv": [ 1.375, 5.25, 0.25, 4.75 ] },
+                "up": { "texture": "#boat", "uv": [ 1.375, 5.25, 0.25, 4.75 ] },
                 "down": { "texture": "#boat", "uv": [ 3.625, 4.75, 2.5, 5.25 ] }
             }
         },
@@ -98,7 +98,7 @@
                 "south": { "texture": "#boat", "uv": [ 0, 11.25, 0.25, 12.75 ] },
                 "west": { "texture": "#boat", "uv": [ 5.75, 11.25, 7.5, 12.75 ] },
                 "up": { "texture": "#boat", "uv": [ 2, 11.25, 0.25, 10.75 ], "rotation": 90 },
-				"down": { "texture": "#boat", "uv": [ 3.75, 11.25, 5.5, 10.75 ], "rotation": 90 }
+                "down": { "texture": "#boat", "uv": [ 3.75, 11.25, 5.5, 10.75 ], "rotation": 90 }
             }
         },
         {

@@ -2,7 +2,7 @@
     "parent": "item/template_minecart",
     "textures": {
         "cart": "entity/minecart",
-		"front": "block/furnace_front",
+        "front": "block/furnace_front",
 		"side": "block/furnace_side",
 		"top": "block/furnace_top"
     },
@@ -26,7 +26,7 @@
                 "south": { "texture": "#cart", "uv": [ 0, 6, 0.5, 14 ], "rotation": 90 },
                 "west": { "texture": "#cart", "uv": [ 8, 5, 5.5, 6 ] },
                 "up": { "texture": "#cart", "uv": [ 8.5, 6, 11, 14 ], "rotation": 90 },
-				"down": { "texture": "#cart", "uv": [ 0.5, 6, 3, 14 ], "rotation": 90 }
+                "down": { "texture": "#cart", "uv": [ 0.5, 6, 3, 14 ], "rotation": 90 }
             }
         },
         {
